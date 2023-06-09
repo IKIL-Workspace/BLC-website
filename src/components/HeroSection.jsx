@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import heroVideo from "../assets/hero.mp4";
 import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
 import GradientBtn from "./GradientBtn";
+import style from "../assets/style.css"
 
 const HeroSection = ({ isMenuShown }) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(true);
@@ -34,7 +35,7 @@ const HeroSection = ({ isMenuShown }) => {
         className={`flex flex-col items-center justify-center duration-500 w-full ${
           isVideoPlaying ? "" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
-          
+
         <h1 className="text-5xl lg:text-7xl">Billion Local Coin</h1>
         {/* <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
@@ -58,6 +59,8 @@ const HeroSection = ({ isMenuShown }) => {
             />
           )}
         </div>
+
+
       </div>
     </div>
   );
