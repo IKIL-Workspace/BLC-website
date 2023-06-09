@@ -70,9 +70,10 @@
 }
 
 @media screen and (max-width: 480px){
-.main-desc {
-    font-size: 18px;
-    line-height: 23px;
-    margin-top: 0px;
+    .main-desc {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 0;
+        margin: -10px -43px 0;
 }
 }
