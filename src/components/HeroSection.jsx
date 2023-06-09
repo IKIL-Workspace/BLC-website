@@ -4,6 +4,8 @@ import heroVideo from "../assets/hero.mp4";
 import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
 import GradientBtn from "./GradientBtn";
 import style from "../assets/style.css"
+import logo from "../assets/logo.png"
+
 
 const HeroSection = ({ isMenuShown }) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(true);
@@ -37,7 +39,7 @@ const HeroSection = ({ isMenuShown }) => {
       } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
     >
       <div className="main-h1">
-        <img src="https://superbrilliantcoin.online/website-logo/logo_small.png" className="logo-img" alt="Logo" />
+        <center><img src={heroVideo} className="logo-img" alt="Logo" /></center>
         <h1>Billion Local Coin</h1>
       </div>
   
