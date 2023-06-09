@@ -52,7 +52,7 @@ const HeroSection = ({ isMenuShown }) => {
 
 
       <div className="flex flex-row justify-center items-center">
-        <GradientBtn className="capitalize" title="get BLC Coin" />
+        <GradientBtn className="capitalize main-buttons" title="get BLC Coin" />
   
         {isVideoPlaying ? (
           <FaPauseCircle
