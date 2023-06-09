@@ -36,7 +36,12 @@ const HeroSection = ({ isMenuShown }) => {
           isVideoPlaying ? "opacity-50" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
 
-        <h1 className="main-h1">Billion Local Coin</h1>
+
+          <div class="main-h1">
+						<img src="#" style="animation: rotation 20s infinite linear;" width="550" class="logo-img"/>
+						<h1>Billion Local Coin </h1>
+					</div>
+
         {/* <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
         </h1> */}
