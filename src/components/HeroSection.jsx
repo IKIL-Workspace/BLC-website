@@ -33,11 +33,12 @@ const HeroSection = ({ isMenuShown }) => {
       <div
         className={`flex flex-col items-center justify-center duration-500 w-full ${
           isVideoPlaying ? "" : "bg-black/80"
-        } ${isMenuShown ? "opacity-20" : "opacity-100"}`} style="padding: 279px;">
-        <h1 className="text-5xl lg:text-7xl">Web 3.0</h1>
-        <h1 className="text-5xl lg:text-7xl capitalize mb-12">
+        } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
+          
+        <h1 className="text-5xl lg:text-7xl">Billion Local Coin</h1>
+        {/* <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
-        </h1>
+        </h1> */}
 
         <div className="flex flex-row justify-center items-center">
           <GradientBtn className="capitalize" title="get anton" />
