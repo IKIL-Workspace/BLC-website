@@ -29,7 +29,13 @@ const HeroSection = ({ isMenuShown }) => {
         muted
         className="object-cover h-full w-full absolute -z-10"
       />
- <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+      <div
+        className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${
+          isVideoPlaying ? "" : "bg-black/80"
+        } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
+
+         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{' '}
@@ -39,11 +45,8 @@ const HeroSection = ({ isMenuShown }) => {
               </a>
             </div>
           </div>
-      <div
-        className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${
-          isVideoPlaying ? "" : "bg-black/80"
-        } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
-        <h1 className="text-5xl lg:text-7xl">Web 3.0</h1>
+          </div>
+          <h1 className="text-5xl lg:text-7xl">Web 3.0</h1>
         <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
         </h1>
