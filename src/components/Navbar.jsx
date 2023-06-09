@@ -36,7 +36,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
 
           <div>
-          <img src={logo} alt="" className="d-inline-block align-text-top brand-img">BLC Coin</img>
+          <img src={logo} alt="" className="d-inline-block align-text-top brand-img"/><h1 className="text-thBlue tracking-widest">BLC Coin</h1>
           </div>
 
           <div className="hidden lg:flex items-center">
