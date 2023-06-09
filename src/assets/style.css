@@ -1,3 +1,12 @@
 .banner-pad {
     padding: 279px;
 }
+
+.main-h1 {
+    font-size: 64px;
+    color: #ffc107;
+    font-weight: bold;
+    margin-top: -24px;
+    text-transform: uppercase;
+    font-family: "Starzone", sans-serif;
+}
