@@ -33,7 +33,7 @@ const HeroSection = ({ isMenuShown }) => {
 
       <div
         className={`banner-pad flex flex-col items-center justify-center duration-500 w-full ${
-          isVideoPlaying ? "" : "bg-black/80"
+          isVideoPlaying ? "opacity-50" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
 
         <h1 className="main-h1">Billion Local Coin</h1>
