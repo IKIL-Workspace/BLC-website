@@ -38,7 +38,7 @@ const HeroSection = ({ isMenuShown }) => {
 
 
           <div className="main-h1">
-						<img src="#" style="animation: rotation 20s infinite linear;" width="550" className="logo-img"/>
+						<img src="#" className="logo-img"/>
 						<h1>Billion Local Coin </h1>
 					</div>
 
