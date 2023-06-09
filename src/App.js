@@ -17,8 +17,8 @@ function App() {
       {/* <Prodcuts />
       <DevApi />
       <Customers />
-      <Contact /> */}
-      <Footer />
+      <Contact />
+      <Footer /> */}
     </div>
   );
 }
