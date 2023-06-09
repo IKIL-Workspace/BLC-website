@@ -39,7 +39,7 @@ const HeroSection = ({ isMenuShown }) => {
       } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
     >
       <div className="main-h1">
-        <center><img src={heroVideo} className="logo-img" alt="Logo" /></center>
+        <center><img src={logo} className="logo-img" alt="Logo" /></center>
         <h1>Billion Local Coin</h1>
       </div>
   
