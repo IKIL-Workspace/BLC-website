@@ -21,6 +21,7 @@ const HeroSection = ({ isMenuShown }) => {
   };
 
   return (
+    <div className="video-overlay">
     <div className="flex items-end justify-center w-full h-screen text-center">
       <video
         ref={videoRef}
@@ -31,11 +32,9 @@ const HeroSection = ({ isMenuShown }) => {
         className="object-cover h-full w-full absolute -z-10"
       />
 
-      <div className="video-overlay">
-
-        
-      </div>
       
+      
+    </div>
     </div>
   );
 };
