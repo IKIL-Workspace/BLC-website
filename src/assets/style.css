@@ -62,17 +62,17 @@
 .main-desc {
     color: #fff;
     font-size: 32px;
+    font-weight: 700;
     line-height: 38px;
+    margin: -19px 58px 0;
     text-align: center;
-    font-weight: bold;
-    margin-top: 32px;
-    /* font-family: "DM Sans", sans-serif; */
+    padding: 8px;
 }
 
 @media screen and (max-width: 480px){
 .main-desc {
     font-size: 18px;
     line-height: 23px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 }
