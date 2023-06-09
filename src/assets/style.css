@@ -69,3 +69,10 @@
     /* font-family: "DM Sans", sans-serif; */
 }
 
+@media screen and (max-width: 480px){
+.main-desc {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+}
