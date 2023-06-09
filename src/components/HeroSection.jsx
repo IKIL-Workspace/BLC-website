@@ -33,7 +33,7 @@ const HeroSection = ({ isMenuShown }) => {
   
     <div
       className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${
-        isVideoPlaying ? "" : "bg-black/80"
+        isVideoPlaying ? "bg-black/80" : "bg-black/80"
       } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
     >
       <div className="main-h1">
