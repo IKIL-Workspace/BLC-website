@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 
-import heroVideo from "../assets/heroVideo.mp4";
+import heroVideo from "../assets/hero.mp4";
 import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
 import GradientBtn from "./GradientBtn";
 
