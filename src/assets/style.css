@@ -104,3 +104,8 @@
     text-transform: uppercase;
 }
 
+.brand-img {
+    margin-right: 10px;
+    margin-top: -4px;
+    width: 40px;
+}

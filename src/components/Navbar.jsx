@@ -1,5 +1,7 @@
 import React from "react";
 import GradientBtn from "./GradientBtn";
+import style from "../assets/style.css"
+import logo from "../assets/logo.png"
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -32,8 +34,9 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     <>
       <div className="absolute w-full h-24 bg-black text-white z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
+
           <div>
-            <h1 className="text-thBlue tracking-widest text-3xl">BLC Coin</h1>
+            <h1 className="text-thBlue tracking-widest text-3xl"><img src={logo} alt="" className="d-inline-block align-text-top brand-img"/> BLC Coin</h1>
           </div>
 
           <div className="hidden lg:flex items-center">
