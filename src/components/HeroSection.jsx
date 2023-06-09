@@ -50,21 +50,6 @@ const HeroSection = ({ isMenuShown }) => {
         the the <span className="text-thBlue font-bold">future</span> is here
       </h1> */}
 
-<div className="block-desc cont-address">
-  <p>
-    Contract Address:<br />
-    <span>
-      <a href="https://bscscan.com/token/0x705a2ba14923bca7f31ee694c49ac9cb5c292a48" target="_blank">0x705a2ba14923bca7f31ee6...</a>
-    </span>
-    <textarea
-      id="myInput"
-      style={{ width: '5%', left: 0, height: '5px', position: 'absolute', top: 0, opacity: 0 }}
-    > 0x705a2ba14923bca7f31ee694c49ac9cb5c292a48</textarea>
-    <button onClick={myFunction}>
-      <img className="copyIcon" src={copysvg} alt="Copy icon" />
-    </button>
-  </p>
-</div>
 
       <div className="flex flex-row justify-center items-center">
         <GradientBtn className="capitalize" title="get BLC Coin" />
