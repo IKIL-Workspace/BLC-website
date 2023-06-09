@@ -34,7 +34,7 @@ const HeroSection = ({ isMenuShown }) => {
         className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${
           isVideoPlaying ? "" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
-      >
+       style="">
         <h1 className="text-5xl lg:text-7xl">Web 3.0</h1>
         <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
