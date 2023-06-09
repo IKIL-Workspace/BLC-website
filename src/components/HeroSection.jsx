@@ -37,8 +37,8 @@ const HeroSection = ({ isMenuShown }) => {
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
 
 
-          <div class="main-h1">
-						<img src="#" style="animation: rotation 20s infinite linear;" width="550" class="logo-img"/>
+          <div className="main-h1">
+						<img src="#" style="animation: rotation 20s infinite linear;" width="550" className="logo-img"/>
 						<h1>Billion Local Coin </h1>
 					</div>
 
