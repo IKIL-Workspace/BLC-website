@@ -109,3 +109,11 @@
     margin-top: -4px;
     width: 40px;
 }
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.align-text-top {
+    vertical-align: text-top!important;
+}
