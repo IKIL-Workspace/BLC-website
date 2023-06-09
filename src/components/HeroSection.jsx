@@ -32,7 +32,7 @@ const HeroSection = ({ isMenuShown }) => {
       />
 
       <div
-        className={`flex flex-col items-center justify-center duration-500 w-full ${
+        className={`banner-pad flex flex-col items-center justify-center duration-500 w-full ${
           isVideoPlaying ? "" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
 
