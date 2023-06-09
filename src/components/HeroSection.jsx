@@ -37,7 +37,7 @@ const HeroSection = ({ isMenuShown }) => {
       } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
     >
       <div className="main-h1">
-        <img src="#" className="logo-img" alt="Logo" />
+        <img src="https://superbrilliantcoin.online/website-logo/logo_small.png" className="logo-img" alt="Logo" />
         <h1>Billion Local Coin</h1>
       </div>
   
