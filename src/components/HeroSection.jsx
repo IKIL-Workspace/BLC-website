@@ -36,7 +36,7 @@ const HeroSection = ({ isMenuShown }) => {
           isVideoPlaying ? "" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}>
 
-        <h1 className="main-h1 text-5xl lg:text-7xl">Billion Local Coin</h1>
+        <h1 className="main-h1">Billion Local Coin</h1>
         {/* <h1 className="text-5xl lg:text-7xl capitalize mb-12">
           the the <span className="text-thBlue font-bold">future</span> is here
         </h1> */}
