@@ -31,6 +31,10 @@ const HeroSection = ({ isMenuShown }) => {
         className="object-cover h-full w-full absolute -z-10"
       />
 
+      <div className="video-overlay">
+
+        
+      </div>
       
     </div>
   );
