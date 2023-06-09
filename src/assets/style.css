@@ -42,3 +42,15 @@
     position: fixed;
 
 }
+
+.logo-img {
+    width: 431px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1366px){
+.logo-img {
+    width: 283px;
+    margin-bottom: 10px;
+}
+}
