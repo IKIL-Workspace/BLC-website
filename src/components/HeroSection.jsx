@@ -42,6 +42,7 @@ const HeroSection = ({ isMenuShown }) => {
         <center><img src={logo} className="logo-img" alt="Logo" /></center>
         <h1>Billion Local Coin</h1>
       </div>
+      <div className="main-desc">Discover How BLC Coin's Blockchain Technology is Revolutionizing Gold and Mineral Resource Trading</div>
   
       {/* <h1 className="text-5xl lg:text-7xl capitalize mb-12">
         the the <span className="text-thBlue font-bold">future</span> is here
