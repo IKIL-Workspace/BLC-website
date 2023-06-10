@@ -35,11 +35,11 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       <div className="absolute w-full h-24 bg-black text-white z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
 
-          <div>
-            <h1 className="tracking-widest text-2xl"><img src={logo} alt="" className="d-inline-block align-text-top brand-img"/> BLC Coin</h1>
+          <div className="logo-top">
+            <h1 className="tracking-widest text-2xl"><img src={logo} alt="" className="d-inline-block align-text-top brand-img"/> BLC</h1>
           </div>
 
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center nav-top ">
             <ul className="flex">
               {links.map(({ id, link }) => (
                 <li
