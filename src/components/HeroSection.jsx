@@ -54,19 +54,6 @@ const HeroSection = ({ isMenuShown }) => {
       <div className="flex flex-row justify-center items-center">
         <button className="capitalize main-buttons" title="get BLC Coin" >Get BLC Coin</button>
   
-        {isVideoPlaying ? (
-          <FaPauseCircle
-            size={30}
-            onClick={handleVideoPause}
-            className="cursor-pointer hover:scale-110 duration-200 text-thBlue"
-          />
-        ) : (
-          <FaPlayCircle
-            size={30}
-            onClick={handleVideoPlay}
-            className="cursor-pointer hover:scale-110 duration-200 text-thBlue"
-          />
-        )}
       </div>
     </div>
   </div>
