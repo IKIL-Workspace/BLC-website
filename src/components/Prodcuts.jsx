@@ -38,7 +38,7 @@ const Prodcuts = () => {
   return (
     <PageSection
       name="products"
-      title="Products"
+      title="What is BLC?"
       subtitle={`Plainly lamplight whether evermore thereat tell, we or scarce bird spoken he whether on, sinking thy again sent what eyes tinkled his explore these. Within melancholy sad bird not respiterespite..`}
     >
       <div className="grid lg:grid-cols-2 gap-12 text-black">
