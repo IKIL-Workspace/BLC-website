@@ -14,11 +14,11 @@ function App() {
     <div>
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
-      {/* <Prodcuts />
-      <DevApi />
+      <Prodcuts />
+      {/* <DevApi />
       <Customers />
       <Contact />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }

@@ -132,3 +132,9 @@
 .nav-top{
     margin-top: 28px;
 }
+
+.block {
+    display: block;
+    margin-top: 34px;
+    /* margin-left: 22px; */
+}
