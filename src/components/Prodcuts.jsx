@@ -41,7 +41,7 @@ const Prodcuts = () => {
       title="What is BLC?"
       subtitle={`Plainly lamplight whether evermore thereat tell, we or scarce bird spoken he whether on, sinking thy again sent what eyes tinkled his explore these. Within melancholy sad bird not respiterespite..`}
     >
-      <div className="grid lg:grid-cols-2 gap-12 text-black">
+      {/* <div className="grid lg:grid-cols-2 gap-12 text-black">
         {products.map(({ id, icon, title, subtitle }) => (
           <div
             key={id}
@@ -54,7 +54,7 @@ const Prodcuts = () => {
             <p className="text-lg">{subtitle}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </PageSection>
   );
 };
