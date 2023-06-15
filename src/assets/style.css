@@ -148,11 +148,12 @@
 }
 
 @media (max-width: 768px) {
-    .partners {
-        display:flex;
-        justify-content: space-between;
-    }
-    }
+.partners {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+}
 
 .mt80px {
     margin-top: -5px;
@@ -174,7 +175,9 @@
 
 @media (max-width: 768px) {
 .partners__block {
-    width: 30%;
+    width: 34%;
+    padding: 13px;
+    margin: 21px;
 }
 }
 
