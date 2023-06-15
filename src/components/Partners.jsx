@@ -4,6 +4,8 @@ import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
 import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
+import PageSection from "./PageSection";
+
 
 import style from "../assets/style.css"
 
@@ -11,7 +13,13 @@ import style from "../assets/style.css"
 
 const Partners = () => {
   return (
-    <div className="partners media-logo mt80px aos-init aos-animate" data-aos="fade-up">
+    <PageSection
+    name="products"
+    title="Introduction to BLC"
+    subtitle={`Plainly lamplight whether evermore thereat tell, we or scarce bird spoken he whether on, sinking thy again sent what eyes tinkled his explore these. Within melancholy sad bird not respiterespite..`}
+  >
+    <center>
+        <div className="container partners media-logo mt80px aos-init aos-animate" data-aos="fade-up">
       <div className="partners__block hvr-pop">
         <a href="https://bscscan.com/token/0x705a2ba14923bca7f31ee694c49ac9cb5c292a48" target="_blank">
           <img src={bscscan} 
@@ -41,6 +49,8 @@ const Partners = () => {
         </a>
       </div>
     </div>
+    </center>
+    </PageSection>
   );
 };
 
