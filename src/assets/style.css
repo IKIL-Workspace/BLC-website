@@ -184,13 +184,13 @@
     vertical-align: middle;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 .partners__block {
     width: 48%;
     margin-bottom: 30px;
     padding: 0 15px;
 }
-}
+} */
 
 @media (max-width: 768px) {
 .partners__block {
