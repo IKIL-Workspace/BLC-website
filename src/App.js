@@ -3,6 +3,7 @@ import Customers from "./components/Customers";
 import DevApi from "./components/DevApi";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Partners from "./components/Partners";
 import Prodcuts from "./components/Prodcuts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -15,6 +16,7 @@ function App() {
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
        <DevApi />
+       <Partners />
       {/* <Customers />
       <Contact />
       <Footer />   */}
