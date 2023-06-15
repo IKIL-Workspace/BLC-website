@@ -15,8 +15,7 @@ const Partners = () => {
   return (
     <PageSection
     name="products"
-    title="Introduction to BLC"
-    subtitle={`Plainly lamplight whether evermore thereat tell, we or scarce bird spoken he whether on, sinking thy again sent what eyes tinkled his explore these. Within melancholy sad bird not respiterespite..`}
+    title="Our Partners & Support"
   >
     <center>
         <div className="container partners media-logo mt80px aos-init aos-animate" data-aos="fade-up">
