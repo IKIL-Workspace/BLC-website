@@ -44,6 +44,27 @@ const Partners = () => {
           className="partners__img" />
         </a>
       </div>
+      <div className="partners__block hvr-pop">
+        <a href="https://www.pinksale.finance/" target="_blank">
+          <img src={pinksale}
+          alt="Pinksale logo" 
+          className="partners__img" />
+        </a>
+      </div>
+      <div className="partners__block hvr-pop">
+        <a href="https://www.pinksale.finance/" target="_blank">
+          <img src={pinksale}
+          alt="Pinksale logo" 
+          className="partners__img" />
+        </a>
+      </div>
+      <div className="partners__block hvr-pop">
+        <a href="https://www.pinksale.finance/" target="_blank">
+          <img src={pinksale}
+          alt="Pinksale logo" 
+          className="partners__img" />
+        </a>
+      </div>
     </div>
     </center>
     </Subtitle>
