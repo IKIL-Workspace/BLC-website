@@ -157,6 +157,11 @@
     /* margin-left: 22px; */
 }
 
+.partnerhead{
+        font-size: 23px;
+        line-height: 1;
+        margin-top: -52px;
+}
 
 .partners {
     display: flex;
