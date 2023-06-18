@@ -32,7 +32,7 @@ const Partners = ({isMenuShown}) => {
       autoPlay
       loop
       muted
-      className="object-cover h-full w-full absolute -z-10"
+      className="object-cover h-600px w-full absolute -z-10"
     />
     <Subtitle
     name="partners"
