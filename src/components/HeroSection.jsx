@@ -59,6 +59,7 @@ const HeroSection = ({ isMenuShown }) => {
       <div className="flex flex-row justify-center items-center">
         <button className="capitalize main-buttons" title="get BLC Coin" >Get BLC Coin</button>
       </div>
+      </div>
 
       <Subtitle
     name="partners"
@@ -98,7 +99,6 @@ const HeroSection = ({ isMenuShown }) => {
     </center>
     </Subtitle>
     </div>
-  </div>
 
   
   
