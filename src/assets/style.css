@@ -158,9 +158,14 @@
 }
 
 .h-600px {
-    height: 698px;
+    height: 978px;
 }
 
+@media screen and (max-width: 480px){
+    .h-600px {
+        height: 688px;
+    }
+}
 
 
 .partnerhead{
