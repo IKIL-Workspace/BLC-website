@@ -4,6 +4,9 @@ import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
 import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
+import trustwallet from "../assets/ehe_00007.webp";
+import dextools from "../assets/dex2_00000.webp";
+
 import Subtitle from "./Subtitle";
 import style from "../assets/style.css"
 
@@ -46,25 +49,19 @@ const Partners = () => {
       </div>
       <div className="partners__block hvr-pop">
         <a href="https://www.pinksale.finance/" target="_blank">
-          <img src={pinksale}
+          <img src={dextools}
           alt="Pinksale logo" 
           className="partners__img" />
         </a>
       </div>
       <div className="partners__block hvr-pop">
         <a href="https://www.pinksale.finance/" target="_blank">
-          <img src={pinksale}
+          <img src={trustwallet}
           alt="Pinksale logo" 
           className="partners__img" />
         </a>
       </div>
-      <div className="partners__block hvr-pop">
-        <a href="https://www.pinksale.finance/" target="_blank">
-          <img src={pinksale}
-          alt="Pinksale logo" 
-          className="partners__img" />
-        </a>
-      </div>
+     
     </div>
     </center>
     </Subtitle>
