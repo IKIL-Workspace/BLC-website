@@ -20,7 +20,7 @@ const DevApi = () => {
           BLC Coin is a new cryptocurrency project, that aims to provide stability and long-term growth for potiential holders.</p>
           <p>The main focus of the project is to develop a credible solution that avoids the displacement of families from there homes. </p>
           <p>This project has specifically being created to assist the holders of the BLC Coin where ever they are globally.
-           </p></p>
+           </p>
         </div>
 
         {/* right */}
