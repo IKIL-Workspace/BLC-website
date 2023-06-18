@@ -6,7 +6,7 @@ import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
 import Subtitle from "./Subtitle";
 import style from "../assets/style.css"
-import PartnerVideo from "../assets/partner.mp4";
+import PartnerVideo from "../assets/partner2.mp4";
 
 
 const Partners = ({isMenuShown}) => {
