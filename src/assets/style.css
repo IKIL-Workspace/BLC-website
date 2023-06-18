@@ -158,12 +158,12 @@
 }
 
 .h-600px {
-    height: 978px;
+    height: 100%;
 }
 
 @media screen and (max-width: 480px){
     .h-600px {
-        height: 500px;
+        height: 100%;
     }
 }
 
