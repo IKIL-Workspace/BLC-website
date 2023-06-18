@@ -168,10 +168,12 @@
 }
 
 
-.partnerhead{
-        font-size: 23px;
-        line-height: 1;
-        margin-top: -52px;
+.partnerhead {
+    padding: 61px;
+    font-size: 23px;
+    line-height: 1;
+    margin-top: -127px;
+    margin: -123px;
 }
 
 .partners {
