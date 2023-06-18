@@ -8,8 +8,7 @@ const DevApi = () => {
     <Subtitle
       name="developer API"
       title="About BLC"
-      subtitle={`Experience the blockchain of the future with the new-generation cryptocoin solution, which seeks to give an abundance of unique economically sound pathways to our potential holders.
-      `}
+      subtitle={`BLC Coin is a new cryptocurrency project, that aims to provide stability and long-term growth for potiential holders. The main focus of the project is to develop a credible solution that avoids the displacement of families from there homes. This project has specifically being created to assist the holders of the BLC Coin where ever they are globally.`}
     >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
         {/* left */}
