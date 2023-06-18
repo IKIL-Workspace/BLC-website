@@ -4,18 +4,14 @@ import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
 import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
-import PageSection from "./PageSection";
-
-
+import Subtitle from "./Subtitle";
 import style from "../assets/style.css"
-
-
 
 const Partners = () => {
   return (
-    <PageSection
-    name="products"
-    title="Our Partners & Support"
+    <Subtitle
+    name="partners"
+    title="BLC Partners & Support"
   >
     <center>
         <div className="container partners media-logo mt80px aos-init aos-animate" data-aos="fade-up">
@@ -49,7 +45,7 @@ const Partners = () => {
       </div>
     </div>
     </center>
-    </PageSection>
+    </Subtitle>
   );
 };
 
