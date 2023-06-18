@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
 
 import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
@@ -6,9 +6,34 @@ import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
 import Subtitle from "./Subtitle";
 import style from "../assets/style.css"
+import heroVideo from "../assets/hero.mp4";
 
-const Partners = () => {
+
+const Partners = ({isMenuShown}) => {
+  const [isVideoPlaying, setIsVideoPlaying] = useState(true);
+
+  const videoRef = useRef();
+
+  const handleVideoPause = () => {
+    videoRef.current.pause();
+    setIsVideoPlaying(false);
+  };
+
+  const handleVideoPlay = () => {
+    videoRef.current.play();
+    setIsVideoPlaying(true);
+  };
+
   return (
+    <div className="flex items-center justify-center w-full h-screen text-center">
+    <video
+      ref={videoRef}
+      src={heroVideo}
+      autoPlay
+      loop
+      muted
+      className="object-cover h-full w-full absolute -z-10"
+    />
     <Subtitle
     name="partners"
     title="BLC Partners & Support"
@@ -46,6 +71,7 @@ const Partners = () => {
     </div>
     </center>
     </Subtitle>
+    </div>
   );
 };
 
