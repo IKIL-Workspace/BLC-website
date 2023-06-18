@@ -16,7 +16,7 @@ function App() {
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
       <Partners />
-      <DevApi />
+      {/* <DevApi /> */}
       {/* <Customers />
       <Contact />
       <Footer />   */}
