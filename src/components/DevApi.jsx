@@ -6,16 +6,18 @@ import Subtitle from "./Subtitle";
 const DevApi = () => {
   return (
     <Subtitle
-    name="partners"
-    title="BLC Partners & Support"
-  >
+      name="developer API"
+      title="Developer API"
+      subtitle={`Angels that with clasp dreams nepenthe on this of is. Said and a my the.`}
+    >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
         {/* left */}
-          <p>
+
+        <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
+          <p className="">
             Whom madam songs faster get as followed sought many leave.
           </p>
         </div>
-
 
         {/* right */}
         <div className="w-full lg:w-1/2 lg:rotate-6 duration-300 hover:rotate-0">
@@ -25,7 +27,8 @@ const DevApi = () => {
             className="rounded-lg shadow-lg shadow-thBlue"
           />
         </div>
-
+        
+      </div>
     </Subtitle>
   );
 };
