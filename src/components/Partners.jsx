@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from 'react';
 
 import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
@@ -6,11 +6,9 @@ import coinmarketcap from "../assets/Coinmarketcap-m-logo-3.png";
 import pinksale from "../assets/Pinksale-m-logo-4.png";
 import Subtitle from "./Subtitle";
 import style from "../assets/style.css"
-import PartnerVideo from "../assets/partner2.mp4";
-
 
 const Partners = () => {
-
+  
   return (
     <Subtitle
     name="partners"
@@ -49,7 +47,6 @@ const Partners = () => {
     </div>
     </center>
     </Subtitle>
-
   );
 };
 
