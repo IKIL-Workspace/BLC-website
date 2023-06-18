@@ -14,10 +14,12 @@ const DevApi = () => {
         {/* left */}
 
         <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
-          <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+          <p>
             Whom madam songs faster get as followed sought many leave.
           </p>
         </div>
+
+
         {/* right */}
         <div className="w-full lg:w-1/2 lg:rotate-6 duration-300 hover:rotate-0">
           <img
