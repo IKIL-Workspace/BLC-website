@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 
 import bscscan from "../assets/BscScan-m-logo-1.png";
 import dexview from "../assets/Dexview-m-logo-2.png";
@@ -9,31 +9,9 @@ import style from "../assets/style.css"
 import PartnerVideo from "../assets/partner2.mp4";
 
 
-const Partners = ({isMenuShown}) => {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(true);
-
-  const videoRef = useRef();
-
-  const handleVideoPause = () => {
-    videoRef.current.pause();
-    setIsVideoPlaying(false);
-  };
-
-  const handleVideoPlay = () => {
-    videoRef.current.play();
-    setIsVideoPlaying(true);
-  };
-
+const Partners = () => {
+  
   return (
-    <div className="">
-    <video
-      ref={videoRef}
-      src={PartnerVideo}
-      autoPlay
-      loop
-      muted
-      className="object-cover h-600px w-full absolute -z-10"
-    />
     <Subtitle
     name="partners"
     title="BLC Partners & Support"
