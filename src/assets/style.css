@@ -160,6 +160,13 @@
 .h-600px {
     height: 698px;
 }
+
+@media (max-width: 768px) {
+.h-600px {
+    height: 69px;
+}
+}
+
 .partnerhead{
         font-size: 23px;
         line-height: 1;
