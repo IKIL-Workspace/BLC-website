@@ -7,8 +7,9 @@ const DevApi = () => {
   return (
     <Subtitle
       name="developer API"
-      title="Developer API"
-      subtitle={`Angels that with clasp dreams nepenthe on this of is. Said and a my the.`}
+      title="About BLC"
+      subtitle={`Experience the blockchain of the future with the new-generation cryptocoin solution, which seeks to give an abundance of unique economically sound pathways to our potential holders.
+      `}
     >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
         {/* left */}
