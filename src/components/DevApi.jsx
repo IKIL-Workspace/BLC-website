@@ -16,7 +16,7 @@ const DevApi = () => {
 
         <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
           <p className="">
-            Whom madam songs faster get as followed sought many leave.
+          BLC Coin is a new cryptocurrency project, that aims to provide stability and long-term growth for potiential holders. The main focus of the project is to develop a credible solution that avoids the displacement of families from there homes. This project has specifically being created to assist the holders of the BLC Coin where ever they are globally.
           </p>
         </div>
 
