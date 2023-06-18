@@ -25,14 +25,14 @@ const HeroSection = ({ isMenuShown }) => {
   };
 
   return (
-    <div className="flex items-center justify-center w-full h-screen text-center">
+    <div className="flex">
     <video
       ref={videoRef}
       src={heroVideo}
       autoPlay
       loop
       muted
-      className="object-cover h-full w-full absolute -z-10"
+      className="object-cover absolute -z-10"
     />
   
     <div
@@ -53,10 +53,11 @@ const HeroSection = ({ isMenuShown }) => {
 
       <div className="flex flex-row justify-center items-center">
         <button className="capitalize main-buttons" title="get BLC Coin" >Get BLC Coin</button>
-  
       </div>
     </div>
   </div>
+
+  
   
   );
 };
