@@ -13,8 +13,7 @@ const DevApi = () => {
     >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
         {/* left */}
-
-        <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
+        <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-black-900 rounded-lg">
           <h1> About BLC </h1>
           <p className="">
           BLC Coin is a new cryptocurrency project, that aims to provide stability and long-term growth for potiential holders.</p>
@@ -28,7 +27,7 @@ const DevApi = () => {
           <img
             src={codeImage}
             alt="code"
-            className="rounded-lg shadow-lg shadow-thBlue"
+            className="rounded-lg"
           />
         </div>
         
