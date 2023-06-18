@@ -10,7 +10,7 @@ import PartnerVideo from "../assets/partner2.mp4";
 
 
 const Partners = () => {
-  
+
   return (
     <Subtitle
     name="partners"
@@ -49,7 +49,7 @@ const Partners = () => {
     </div>
     </center>
     </Subtitle>
-    </div>
+
   );
 };
 
