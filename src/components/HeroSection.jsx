@@ -5,6 +5,7 @@ import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
 import GradientBtn from "./GradientBtn";
 import style from "../assets/style.css"
 import logo from "../assets/logo.png"
+import Partners from "./Partners";
 
 
 
@@ -24,6 +25,7 @@ const HeroSection = ({ isMenuShown }) => {
   };
 
   return (
+    <>
     <div className="flex items-center justify-center w-full h-screen text-center">
     <video
       ref={videoRef}
@@ -56,6 +58,8 @@ const HeroSection = ({ isMenuShown }) => {
       </div>
 </div>
   
+  <Partners />
+  </>
   );
 };
 

@@ -1,26 +1,33 @@
 import { useState } from "react";
 import Customers from "./components/Customers";
 import DevApi from "./components/DevApi";
-import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import Partners from "./components/Partners";
 import Prodcuts from "./components/Prodcuts";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-function App() {
-  const [isMenuShown, setIsMenuShown] = useState(false);
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import HeroSection from "./components/HeroSection";
+import About from "./components/About";
+import Features from "./components/Features";
+import Learn from "./components/Learn";
+import Contact from "./components/Contact";
+import FAQs from "./components/FAQ";
 
+function App() {
   return (
-    <div>
-      <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
-      <HeroSection isMenuShown={isMenuShown} />
-      <DevApi />
-      <Partners />
-      {/* <Customers />
-      <Contact />
-      <Footer />   */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<HeroSection />} />
+          <Route path="about" element={<About />} />
+          <Route path="features" element={<Features />} />
+          {/* <Route path="learn" element={<Learn />} /> */}
+          <Route path="contact" element={<Contact />} />
+          <Route path="faq" element={<FAQs />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
