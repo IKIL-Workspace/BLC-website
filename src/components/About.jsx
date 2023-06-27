@@ -15,6 +15,8 @@ import macHeroScreenshotImageSrc from "../images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "../images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+import banner2x from "../assets/BLC-banner.png";
+
 
 const About = () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
@@ -33,7 +35,7 @@ const About = () => {
         subheading={<Subheading>Our Mission</Subheading>}
         heading="Placeholder Text for Our Mission"
         // description=""
-        imageSrc="https://billionlocalcoin.net/img/banner2x.png"
+        imageSrc={banner2x}
         textOnLeft={false}
       />
       <Stats
