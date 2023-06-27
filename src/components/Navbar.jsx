@@ -4,7 +4,7 @@ import style from "../assets/style.css"
 import logo from "../assets/logo.png"
 
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
