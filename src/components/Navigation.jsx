@@ -6,7 +6,7 @@ import logo from "../assets/logo.png"
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Outlet, Link } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({ isMenuShown, setIsMenuShown }) => {
   const links = [{
       id: 1,
       link: "home",
@@ -36,7 +36,7 @@ const Navigation = () => {
 
   return (
     <>
-      <div className="absolute w-full h-24 bg-black text-white z-20">
+      <div className="absolute w-full h-24 bg-gray text-red z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
 
           <div className="logo-top">
@@ -64,13 +64,32 @@ const Navigation = () => {
             </ul>
             <GradientBtn className="ml-4 capitalize" title="get coin" />
           </div>
+
+          <div
+            onClick={() => setIsMenuShown(!isMenuShown)}
+            className="block lg:hidden cursor-pointer"
+          >
+            {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
+          </div>
         </div>
       </div>
 
       <div
-        className={`w-full bg-black text-white absolute z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500`}
+        className={`w-full bg-black text-red absolute z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${
+          isMenuShown ? "top-24 rounded-b-2xl opacity-95" : "top-[-100%]"
+        }`}
       >
         <ul>
+          {links.map(({ id, link, route }) => (
+            <li key={id} className="p-4 uppercase cursor-pointer">
+              <Link
+                onClick={() => setIsMenuShown(false)}
+                to={route}
+              >
+                {link}
+              </Link>
+            </li>
+          ))}
           <GradientBtn className="mt-10 capitalize" title="get BLC" />
         </ul>
       </div>

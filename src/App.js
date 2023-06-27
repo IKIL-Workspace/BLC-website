@@ -15,10 +15,12 @@ import Contact from "./components/Contact";
 import FAQs from "./components/FAQ";
 
 function App() {
+  const [isMenuShown, setIsMenuShown] = useState(false);
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigation />}>
+        <Route path="/" element={<Navigation isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />}>
           <Route index element={<HeroSection />} />
           <Route path="about" element={<About />} />
           <Route path="features" element={<Features />} />
