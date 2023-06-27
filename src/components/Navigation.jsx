@@ -75,7 +75,7 @@ const Navigation = ({ isMenuShown, setIsMenuShown }) => {
       </div>
 
       <div
-        className={`w-full bg-black text-red absolute z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${
+        className={`w-full bg-black text-red absolute z-10 left-0 h-fit py-20 lg:hidden flex justify-center text-center text-2xl duration-500 ${
           isMenuShown ? "top-24 rounded-b-2xl opacity-95" : "top-[-100%]"
         }`}
       >
