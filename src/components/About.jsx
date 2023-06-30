@@ -25,14 +25,14 @@ const About = () => {
       <Hero roundedHeaderButton={true} />
       <MainFeature
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="BLC Coin is a new cryptocurrency project, that aims to provide stability and long-term growth for potiential holders."
-        description="The main focus of the project is to develop a credible solution that avoids the displacement of families from there homes. "
+        heading="The BLC is a new cryptocurrency project that has the backings of verified Gold and Bauxite in ground assets (gold and bauxite that has not yet been taken out of the ground). The value of the assets goes well into the twelve to fifteen digit numbers. Our aim is to provide stability and long-term growth for potential holders."
+        description="This coin is registered as a securities product and is usable for the purposes of trade."
         imageSrc="https://blc-website.vercel.app/static/media/logo.41fcda1aa2934ac2efa8.png"
       />
       <MainFeature
         subheading={<Subheading>Our Mission</Subheading>}
-        heading="Placeholder Text for Our Mission"
-        // description=""
+        heading="We will strive to make BLC as one of the prominent ways that the cryptocurrencies and blockchain system will be used in different areas of business and economy as well as social welfare and other major areas of technology."
+        description=""
         imageSrc="https://billionlocalcoin.net/img/banner2x.png"
         textOnLeft={false}
       />
@@ -61,24 +61,29 @@ const About = () => {
         showDecoratorBlob={false}
         features={[{
             Icon: BriefcaseIcon,
-            title: "Inclusive Thinking",
-            description: "The variety of viewpoints among our coworkers is something we highly cherished. We want to spread a positive message globally, and this is only possible if our team members are enthusiastic and open minded.",
+            title: "Innovation",
+            description: "We are dedicated to continually pushing the boundaries of technological innovation in the cryptocurrency industry.",
             iconContainerCss: tw`bg-green-300 text-green-800`
           },{
             Icon: BriefcaseIcon,
-            title: "Being Decisive and Resourceful",
-            description: "As members of the BLC team we are responsible for providing top notch service. Our corporate values encourage workers to take the initiative, and make choices that are consistent with our long term objectives.",
+            title: "Client Focus",
+            description: "Our clients are at the center of everything we do, and we are committed to providing them with investment opportunities and exceptional service.",
             iconContainerCss: tw`bg-red-300 text-red-800`
           },{
             Icon: BriefcaseIcon,
-            title: "Don't Be Afraid",
-            description: "The element of fear and being afraid is the more common practice seen in everyday life. We place a high importance on decisiveness in our workplace, because mostly bold individuals are capable of changing the world.",
+            title: "Integrity",
+            description: "We uphold the highest standards of ethics, transparency, and honesty in our interactions with our clients, partners, and stakeholders.",
             iconContainerCss: tw`bg-blue-300 text-blue-800`
         },{
           Icon: BriefcaseIcon,
-          title: "Keep It Humble",
-          description: "Among the BLC community team membership, we don't feed egos instead, we function as a team not as individuals. We use our creative energy on things that truly count like our goals and aspirations.",
+          title: "Security",
+          description: "We prioritize the security of our client's investments and ensure the highest levels of protection for their assets.",
           iconContainerCss: tw`bg-orange-300 text-orange-800`
+      },{
+          Icon: BriefcaseIcon,
+          title: "Social Responsibility",
+          description: "We are committed to making a positive impact on society and promoting sustainability and diversity through our organization for the cryptocurrency industry.",
+          iconContainerCss: tw`bg-purple-300 text-purple-800`
       }]}
       />
       <GetStarted/>
