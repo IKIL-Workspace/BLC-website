@@ -59,6 +59,7 @@ const About = () => {
             The Values that the <HighlightedText>BLC Community Members Stand By.</HighlightedText>
           </>
         }
+        description=""
         imageSrc={prototypeIllustrationImageSrc}
         showDecoratorBlob={false}
         features={[{
