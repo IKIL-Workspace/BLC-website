@@ -9,7 +9,7 @@ import MainFeature2 from "../page-components/features/TwoColWithTwoHorizontalFea
 import FeatureWithSteps from "../page-components/features/TwoColWithSteps.js";
 import GetStarted from "../page-components/cta/GetStarted";
 import Stats from "../page-components/features/ThreeColCenteredStatsPrimaryBackground.js";
-import Footer from "../page-components/footers/FiveColumnWithBackground.js";
+import Footer from "./Footer.jsx";
 import heroScreenshotImageSrc from "../images/hero-screenshot-1.png";
 import macHeroScreenshotImageSrc from "../images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "../images/prototype-illustration.svg";
@@ -90,7 +90,7 @@ const About = () => {
       }]}
       />
       <GetStarted/>
-      {/* <Footer /> */}
+      <Footer />
     </AnimationRevealPage>
   );
 }

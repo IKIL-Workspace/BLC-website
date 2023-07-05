@@ -10,9 +10,11 @@ import Navigation from "./components/Navigation";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Features from "./components/Features";
-import Learn from "./components/Learn";
+// import Learn from "./components/Learn";
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQ";
+import Team from "./components/Team";
+import Privacy from "./components/Privacy";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -24,9 +26,10 @@ function App() {
           <Route index element={<HeroSection />} />
           <Route path="about" element={<About />} />
           <Route path="features" element={<Features />} />
-          {/* <Route path="learn" element={<Learn />} /> */}
+          <Route path="team" element={<Team />} />
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQs />} />
+          <Route path="privacy" element={<Privacy />} />
         </Route>
       </Routes>
     </BrowserRouter>
