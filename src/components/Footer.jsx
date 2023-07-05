@@ -91,7 +91,7 @@ export default () => {
                 <Link href="https://docs.billionlocalcoin.net/">Learn</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="https://docs.billionlocalcoin.net/team">Team</Link>
+                <Link href="https://blc-website.vercel.app/team">Team</Link>
               </LinkListItem>
             </LinkList>
           </Column>
