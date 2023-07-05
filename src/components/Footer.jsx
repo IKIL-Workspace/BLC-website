@@ -82,7 +82,7 @@ export default () => {
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>BLC Coin</ColumnHeading>
+            <ColumnHeading>BLC</ColumnHeading>
             <LinkList>
               <LinkListItem>
                 <Link href="https://blc-website.vercel.app/features">Features</Link>
