@@ -6,6 +6,7 @@ import GradientBtn from "./GradientBtn";
 import style from "../assets/style.css"
 import logo from "../assets/logo.png"
 import Partners from "./Partners";
+import Footer from "./Footer.jsx";
 
 
 
@@ -59,6 +60,7 @@ const HeroSection = ({ isMenuShown }) => {
 </div>
   
   <Partners />
+  <Footer />
   </>
   );
 };

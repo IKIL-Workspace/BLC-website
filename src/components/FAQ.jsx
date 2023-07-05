@@ -2,6 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
 import FAQ from "../page-components/faqs/SingleCol.js";
+import Footer from "./Footer.jsx";
 
 const FAQs = () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
@@ -49,6 +50,7 @@ const FAQs = () => {
           }
         ]}
       />
+      <Footer />
     </AnimationRevealPage>
   );
 }

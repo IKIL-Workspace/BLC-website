@@ -6,6 +6,7 @@ import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
 import { SectionHeading, Subheading as SubheadingBase } from "../page-components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "../page-components/misc/Buttons.js";
 import EmailIllustrationSrc from "../images/email-illustration.svg";
+import Footer from "./Footer.jsx";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -68,6 +69,7 @@ export default ({
           </TextColumn>
         </TwoColumn>
       </Container>
+      <Footer />
     </AnimationRevealPage>
   );
 };
