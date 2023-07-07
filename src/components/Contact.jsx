@@ -23,9 +23,9 @@ const Image = styled.div(props => [
 ]);
 const TextContent = tw.div`lg:py-8 text-center md:text-left`;
 
-const Subheading = tw(SubheadingBase)`text-center md:text-left`;
-const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
-const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`
+const Subheading = tw(SubheadingBase)`text-center md:text-left text-temp-100`;
+const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight text-white`;
+const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-white`
 
 const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col max-w-sm mx-auto md:mx-0`
 const Input = tw.input`mt-6 first:mt-0 border-b-2 py-3 focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
@@ -33,11 +33,11 @@ const Textarea = styled(Input).attrs({as: "textarea"})`
   ${tw`h-24`}
 `
 
-const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
+const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8 bg-primary-500 text-temp-100`
 
 export default ({
   subheading = "Contact Us",
-  heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
+  heading = <>Feel free to <span tw="text-temp-100">get in touch</span><wbr/> with us.</>,
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   submitButtonText = "Send",
   formAction = "#",
@@ -50,9 +50,9 @@ export default ({
     <AnimationRevealPage>
       <Container>
         <TwoColumn>
-          <ImageColumn>
+          {/* <ImageColumn>
             <Image imageSrc={EmailIllustrationSrc} />
-          </ImageColumn>
+          </ImageColumn> */}
           <TextColumn textOnLeft={textOnLeft}>
             <TextContent>
               {subheading && <Subheading>{subheading}</Subheading>}

@@ -10,14 +10,14 @@ const Row = tw.div`px-8 max-w-screen-lg mx-auto flex items-center relative z-10 
 
 const ColumnContainer = tw.div`lg:w-1/2 max-w-lg`
 const TextContainer = tw(ColumnContainer)``;
-const Text = tw.h5`text-gray-100 text-2xl sm:text-3xl font-bold`;
+const Text = tw.h5`text-black text-2xl sm:text-3xl font-bold`;
 
 const LinksContainer = tw(ColumnContainer)`flex justify-center lg:justify-end mt-6 lg:mt-0 flex-col sm:flex-row`;
 
 const Link = tw.a`w-full sm:w-auto text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 lg:px-10 lg:py-5 mt-4 first:mt-0 sm:mt-0 sm:mr-8 sm:last:mr-0 rounded-full font-bold border border-transparent tracking-wide transition duration-300 focus:outline-none focus:shadow-outline`;
-const PrimaryLink = tw(Link)`bg-red-500 text-gray-100 shadow-lg hocus:bg-red-600 hocus:text-gray-200`;
+const PrimaryLink = tw(Link)`bg-temp-100 text-black shadow-lg hocus:bg-red-600 hocus:text-gray-200`;
 
-const SecondaryLink = tw(Link)`text-gray-100 border-gray-500 hover:bg-gray-100 hover:text-primary-500 hover:border-primary-500`;
+const SecondaryLink = tw(Link)`bg-temp-300 text-temp-100 shadow-lg border-temp-100 hover:bg-gray-100 hover:text-primary-500 hover:border-primary-500`;
 
 const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`
 const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-primary-700 opacity-50`
@@ -43,10 +43,10 @@ export default ({
             <SecondaryLink href={secondaryLinkUrl}>{secondaryLinkText}</SecondaryLink>
           </LinksContainer>
         </Row>
-        <DecoratorBlobContainer>
+        {/* <DecoratorBlobContainer>
           <DecoratorBlob1/>
           <DecoratorBlob2/>
-        </DecoratorBlobContainer>
+        </DecoratorBlobContainer> */}
       </PrimaryBackgroundContainer>
       </ContentWithPaddingXl>
     </Container>

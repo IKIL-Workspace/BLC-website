@@ -9,9 +9,9 @@ import Footer from "./Footer";
 import { SectionHeading } from "../page-components/misc/Headings";
 
 const HeadingRow = tw.div`flex`;
-const Heading = tw(SectionHeading)`text-gray-900 mb-10`;
+const Heading = tw(SectionHeading)`text-temp-100 mb-10`;
 const Text = styled.div`
-  ${tw`text-lg  text-gray-800`}
+  ${tw`text-lg  text-white`}
   p {
     ${tw`mt-2 leading-loose`}
   }
