@@ -90,7 +90,7 @@ const Navigation = ({ isMenuShown, setIsMenuShown }) => {
               </Link>
             </li>
           ))}
-          <GradientBtn className="mt-10 capitalize" title="get BLC" />
+          <GradientBtn className="mt-10 hidden capitalize" title="get BLC" />
         </ul>
       </div>
 
