@@ -27,8 +27,8 @@ const About = () => {
       <Hero roundedHeaderButton={true} />
       <MainFeature
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="The BLC is a new cryptocurrency project that has the backings of verified Gold and Bauxite in ground assets (gold and bauxite that has not yet been taken out of the ground). The value of the assets goes well into the twelve to fifteen digit numbers. Our aim is to provide stability and long-term growth for potential holders."
-        description="This coin is registered as a securities product and is usable for the purposes of trade."
+        heading="The BLC is a new cryptocurrency project that has the backings of verified Gold and Bauxite in ground assets (gold and bauxite that has not yet been taken out of the ground)."
+        description="The value of the assets goes well into the twelve to fifteen digit numbers. Our aim is to provide stability and long-term growth for potential holders. This coin is registered as a securities product and is usable for the purposes of trade."
         imageSrc="https://blc-website.vercel.app/static/media/logo.41fcda1aa2934ac2efa8.png"
       />
       <MainFeature

@@ -5,8 +5,8 @@ import FAQ from "../page-components/faqs/SingleCol.js";
 import Footer from "./Footer.jsx";
 
 const FAQs = () => {
-  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
-  const HighlightedText = tw.span`text-primary-500`;
+  const Subheading = tw.span`uppercase tracking-widest font-bold text-temp-100`;
+  const HighlightedText = tw.span`text-temp-100`;
 
   return (
     <AnimationRevealPage>
